@@ -1,0 +1,31 @@
+# === Large artifacts — NEVER commit (models/ alone is ~164 GB) ===
+models/
+tools/
+data/
+*.gguf
+*.npy
+*.dat
+*.bin
+*.safetensors
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.vscode/
+
+# === Large result dumps (keep results/frontier.jsonl, the experiment data) ===
+results/*.txt
+results/vram_*.txt
+
+# === Scratch / temp ===
+*_tmp.py
+*.tmp
+*.log
+
+# === OS ===
+.DS_Store
+Thumbs.db

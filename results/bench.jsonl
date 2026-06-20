@@ -1,0 +1,1 @@
+{"tag": "smoketest-llama3.2", "model": "llama3.2:latest", "path": "C:\\Users\\Tony Stark\\.ollama\\models\\blobs\\sha256-dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff", "file_gb": 1.881, "ngl": -1, "nctx": 512, "kv_type": null, "vram_mb": 0.0, "load_s": 2.1, "ppl": 15.0701, "ppl_tokens": 3066, "tok_s": 25.42}

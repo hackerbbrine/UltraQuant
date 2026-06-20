@@ -1,0 +1,26 @@
+{"label": "q8", "model": "Llama-3.1-8B-Q8_0.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 7.0064, "ppl_err": 0.16156, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 3341.07, "tg_tok_s": 68.67}
+{"label": "iq1m", "model": "iq1m.gguf", "file_gb": 2.013, "ngl": 99, "nctx": 512, "ppl": 19.5646, "ppl_err": 0.49011, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 3098.0, "tg_tok_s": 178.42}
+{"label": "iq2m", "model": "iq2m.gguf", "file_gb": 2.746, "ngl": 99, "nctx": 512, "ppl": 8.4943, "ppl_err": 0.20048, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 2702.27, "tg_tok_s": 118.46}
+{"label": "iq2xxs", "model": "iq2xxs.gguf", "file_gb": 2.234, "ngl": 99, "nctx": 512, "ppl": 12.211, "ppl_err": 0.29678, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 2937.27, "tg_tok_s": 152.61}
+{"label": "iq3xxs", "model": "iq3xxs.gguf", "file_gb": 3.05, "ngl": 99, "nctx": 512, "ppl": 7.8371, "ppl_err": 0.18137, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 2924.26, "tg_tok_s": 111.41}
+{"label": "q3km", "model": "q3km.gguf", "file_gb": 3.743, "ngl": 99, "nctx": 512, "ppl": 7.4943, "ppl_err": 0.17535, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 2549.74, "tg_tok_s": 128.99}
+{"label": "q4km", "model": "q4km.gguf", "file_gb": 4.583, "ngl": 99, "nctx": 512, "ppl": 7.1857, "ppl_err": 0.16689, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 2929.42, "tg_tok_s": 111.07}
+{"label": "uqmix_a", "model": "uqmix_a.gguf", "file_gb": 2.921, "ngl": 99, "nctx": 512, "ppl": 8.9591, "ppl_err": 0.21333, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 2930.34, "tg_tok_s": 127.73}
+{"label": "uqmix_b", "model": "uqmix_b.gguf", "file_gb": 2.334, "ngl": 99, "nctx": 512, "ppl": 16.546, "ppl_err": 0.41686, "vram_mb": NaN, "vram_breakdown": {}, "offload": null, "pp_tok_s": 2969.09, "tg_tok_s": 159.99}
+{"label": "70b_iq1m", "model": "Llama-3.3-70B-IQ1_M.gguf", "file_gb": 15.601, "ngl": 56, "nctx": 512, "ppl": 8.6574, "ppl_err": 0.21119, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "uqmix_c", "model": "uqmix_c.gguf", "file_gb": 2.438, "ngl": 99, "nctx": 512, "ppl": 10.6046, "ppl_err": 0.2551, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "uqmix_d", "model": "uqmix_d.gguf", "file_gb": 2.434, "ngl": 99, "nctx": 512, "ppl": 10.5787, "ppl_err": 0.25418, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "iq2s", "model": "iq2s.gguf", "file_gb": 2.569, "ngl": 99, "nctx": 512, "ppl": 9.1083, "ppl_err": 0.21667, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "iq2xs", "model": "iq2xs.gguf", "file_gb": 2.427, "ngl": 99, "nctx": 512, "ppl": 9.8911, "ppl_err": 0.23583, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "sim_iq2", "model": "q8_iq2.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 11.8269, "ppl_err": 0.28675, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "sim_e8", "model": "q8_e8.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 12.5089, "ppl_err": 0.30593, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "sim_e8mix", "model": "q8_e8mix.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 10.0357, "ppl_err": 0.24268, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "sim_e8mix_fdn", "model": "q8_e8mix_fdn.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 9.2127, "ppl_err": 0.22165, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "sim_trellis", "model": "q8_trellis.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 9.3744, "ppl_err": 0.2251, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "trellis_fdn", "model": "q8_trellis_fdn.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 8.5954, "ppl_err": 0.20372, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "trellis_fdn4", "model": "q8_trellis_fdn4.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 8.4767, "ppl_err": 0.20092, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "trellis_dqo3", "model": "q8_trellis_dqo.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 8.0129, "ppl_err": 0.19637, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "trellis_all3", "model": "q8_trellis_all3.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 7.4262, "ppl_err": 0.17316, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "trellis_all4", "model": "q8_trellis_all4.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 7.0943, "ppl_err": 0.16308, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "dqo3_edges16", "model": "q8_trellis_dqo_edges.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 8.5642, "ppl_err": 0.20815, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}
+{"label": "trellis_out1pct", "model": "q8_trellis_out1.0.gguf", "file_gb": 7.954, "ngl": 99, "nctx": 512, "ppl": 9.108, "ppl_err": 0.21533, "vram_mb": NaN, "vram_breakdown": {}, "offload": null}

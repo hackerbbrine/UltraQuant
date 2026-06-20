@@ -1,0 +1,17 @@
+# --- Core (CPU: analysis, quantization math, tokenization) ---
+numpy>=1.26
+scipy>=1.11
+gguf>=0.10
+llama-cpp-python>=0.3        # CPU build is fine — used for tokenization + CPU perplexity cross-check
+
+# --- GPU (AMD ROCm) ---
+# Install the ROCm torch build matching your stack from the AMD/ROCm wheel index, e.g.:
+#   pip install torch==2.9.1+rocm7.2.1 --index-url https://...rocm...
+# (NVIDIA users: install the matching CUDA torch build instead.)
+torch>=2.4
+
+# --- External, NOT pip-installable (see README "Setup") ---
+# * Prebuilt llama.cpp Vulkan binaries in tools/vulkan/  (release b9672+):
+#     llama-perplexity, llama-bench, llama-quantize, llama-imatrix, llama-cli
+# * An 8B Q8_0 GGUF in models/  (e.g. Meta-Llama-3.1-8B-Instruct-Q8_0.gguf)
+# * WikiText-2 train/test text in data/  (calibration / eval; auto-fetched by the scripts)
